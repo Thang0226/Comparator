@@ -1,3 +1,6 @@
+package circle;
+import shape.Shape;
+
 public class Circle extends Shape {
 	private double radius = 1.0;
 
@@ -31,7 +34,7 @@ public class Circle extends Shape {
 
 	@Override
 	public String toString() {
-		return "A Circle with radius = "
+		return "A circle.Circle with radius = "
 				+ getRadius()
 				+ ", which is a subclass of "
 				+ super.toString();

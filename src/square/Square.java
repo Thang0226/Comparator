@@ -1,3 +1,7 @@
+package square;
+
+import rectangle.Rectangle;
+
 public class Square extends Rectangle {
 	public Square() {
 	}
@@ -31,7 +35,7 @@ public class Square extends Rectangle {
 
 	@Override
 	public String toString() {
-		return "A Square with side = "
+		return "A square.Square with side = "
 				+ getSide()
 				+ ", which is a subclass of "
 				+ super.toString();
